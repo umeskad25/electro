@@ -1,0 +1,2 @@
+
+insert into TYPE_CONNECTION (id,connection_type) values (1,'Resedential'); 
