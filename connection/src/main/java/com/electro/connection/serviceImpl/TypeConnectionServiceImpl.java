@@ -17,6 +17,7 @@ public class TypeConnectionServiceImpl implements TypeConnectionService{
 	@Override
 	public List<TypeConnection> getTyprOfCOnnection(){
 		
+		System.out.println("");
 		List<TypeConnection>  t =	typeConnectionRepo.findAll();
 		
 		return t;
